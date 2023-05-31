@@ -7,7 +7,7 @@ public class Alice {
 
         String name = input.nextLine();
 
-        System.out.println("Hello " + name);
+        System.out.println("Hello, " + name);
 
     }
 }

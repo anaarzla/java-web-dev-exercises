@@ -9,6 +9,14 @@ public class StringIndex {
         System.out.println("What's the word you want to search for? ");
         String word = input.nextLine();
 
+        int index = UserTxt.toLowerCase().indexOf(word.toLowerCase());
+        int length = word.length();
+
+        System.out.println("Index Input: "+index+" Input Length: "+length );
+
+        String remove = UserTxt.replaceAll(word, "");
+        System.out.println(remove);
+
 
     }
 }

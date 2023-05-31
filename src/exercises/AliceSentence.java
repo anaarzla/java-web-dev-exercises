@@ -10,7 +10,14 @@ public class AliceSentence {
         System.out.println("What's the word you want to search for? ");
         String word = input.nextLine();
 
-        System.out.println(AliceTxt.indexOf(word));
+        /**int wordFinder = **/
+                System.out.println(AliceTxt.toLowerCase().contains(word.toLowerCase()));
+
+        /** if(wordFinder == 0 ){
+            System.out.println(" Word term was found. ");
+        }else{
+            System.out.println(" Word term was not found.");
+        } **/
 
 
     }
